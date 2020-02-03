@@ -1,0 +1,42 @@
+{
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    }
+  ],
+
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "prettier.singleQuote": true,
+  "javascript.format.enable": false,
+  "javascript.validate.enable": false,
+  "eslint.packageManager": "yarn",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.formatOnSave": true,
+  "[handlebars]": {
+    "editor.formatOnSave": false
+  },
+  // Controls if quick suggestions should show up while typing
+  "editor.quickSuggestions": true,
+
+  // Controls if suggestions should be accepted with "Enter" - in addition to "Tab". Helps to avoid ambiguity between inserting new lines and accepting suggestions.
+  "editor.acceptSuggestionOnEnter": true,
+
+  // Controls the delay in ms after which quick suggestions will show up.
+  "editor.quickSuggestionsDelay": 10,
+
+  // Enable word based suggestions
+  "editor.wordBasedSuggestions": true,
+
+  // Enable parameter hints
+  "editor.parameterHints": true
+}
